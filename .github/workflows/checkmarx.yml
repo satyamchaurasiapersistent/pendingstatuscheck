@@ -12,7 +12,7 @@
 # Update the 'team' field to reflect the team name used in Checkmarx.
 #
 # For full documentation, including a list of all inputs, please refer to the README https://github.com/checkmarx-ts/checkmarx-cxflow-github-action
-
+name: checkmarx
 on:
   push:
     branches:
@@ -21,10 +21,8 @@ on:
       - shivam
     
 jobs:
-  Checkmarx:
+  checckkmarx:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Checkmarx
-      uses: actions/create-release@v1
