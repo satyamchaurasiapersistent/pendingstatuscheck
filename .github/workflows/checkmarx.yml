@@ -13,7 +13,6 @@
 #
 # For full documentation, including a list of all inputs, please refer to the README https://github.com/checkmarx-ts/checkmarx-cxflow-github-action
 
-name: Checkmarx SAST Scan
 on:
   push:
     branches:
@@ -22,7 +21,7 @@ on:
       - shivam
     
 jobs:
-  build:
+  Checkmarx:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
