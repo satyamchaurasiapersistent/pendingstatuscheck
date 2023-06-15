@@ -21,7 +21,7 @@ on:
       - shivam
     
 jobs:
-  checckkmarx:
+  checkmarx:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
